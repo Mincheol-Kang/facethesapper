@@ -33,14 +33,14 @@
 </style>
 
 <svelte:head>
-	<title>Sapper project template</title>
+	<title>Sapper 프로젝트 템플릿</title>
 </svelte:head>
 
-<h1>Great success!</h1>
+<h1>참 잘했또!</h1>
 
 <figure>
 	<img alt='Success Kid' src='successkid.jpg'>
-	<figcaption>Have fun with Sapper!</figcaption>
+	<figcaption>Sapper 템플릿 새로 설치 후 Vercel로 배포 완료!</figcaption>
 </figure>
 
 <p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
