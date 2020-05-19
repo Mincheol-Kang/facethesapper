@@ -1,3 +1,34 @@
+# Sapper(Svelte) 템플릿 프로젝트
+
+sapper 템플릿을 로컬에 설치 후 Vercel로 배포하는 작업은 매우 간단하다. 아래 커맨드라인 히스토리에 나온대로 명령어들을 순서대로 실행하기만 하면 끝! firebase에 비하면 정말정말 초간단!!! 게다가 Vercel로 배포하는 일은 아주 깔끔하기까지 하다. firebase는 복잡하고 지저분하고 까다로워서 시행착오를 엄청 하게 되는데;; (물론 아는 게 별로 없어서 그런 거겠지만;; 나같은 무식쟁이도 vercel로 배포하는 건 정말 넘넘 쉬움!)
+
+### 로컬 커맨드라인 히스토리
+```bash
+$ npx degit "sveltejs/sapper-template#rollup" facethesapper
+$ cd facethesapper
+$ npm install
+$ npm run dev (로컬에서 페이지 잘 열리는지 확인)
+$ node __sapper__/build
+$ npx sapper export
+$ npx serve __sapper__/export (배포 버전으로 페이지 띄워서 확인)
+$ now (Vercel로 배포)
+$ now --prod
+$ git init
+$ git remote add origin https://github.com/Mincheol-Kang/facethesapper.git
+$ git push -u origin master
+```
+
+### 파일 수정한 다음엔
+```bash
+1. git commit
+2. git push
+3. npx sapper export
+4. npx serve __sapper__/export
+5. now --prod
+```
+
+******** 아래 글은 README.md 파일에 원래 있던 내용 ********
+
 # sapper-template
 
 The default [Sapper](https://github.com/sveltejs/sapper) template, available for Rollup and webpack.
