@@ -43,4 +43,8 @@
 	<figcaption>Sapper 템플릿 새로 설치 후 Vercel로 배포 완료!</figcaption>
 </figure>
 
-<p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
+<p><strong> {my_message} </strong></p>
+
+<script>
+const my_message = '이 문장은 svelte script 변수에 담긴 문자열~'
+</script>
