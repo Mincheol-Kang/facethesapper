@@ -46,5 +46,5 @@
 <p><strong> {my_message} </strong></p>
 
 <script>
-const my_message = '이 문장은 svelte script 변수에 담긴 문자열~'
+const my_message = '프로젝트 폴더를 dev_root 안으로 옮기기 완료!'
 </script>
