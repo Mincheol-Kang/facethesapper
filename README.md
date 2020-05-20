@@ -5,14 +5,11 @@ sapper 템플릿을 로컬에 설치 후 Vercel로 배포하는 작업은 매우
 ### 로컬 커맨드라인 히스토리
 ```bash
 $ npx degit "sveltejs/sapper-template#rollup" facethesapper
-$ cd facethesapper
-$ npm install
+$ cd facethesapper && npm install
 $ npm run dev (로컬에서 페이지 잘 열리는지 확인)
-$ node __sapper__/build
 $ npx sapper export
 $ npx serve __sapper__/export (배포 버전으로 페이지 띄워서 확인)
-$ now (Vercel로 배포)
-$ now --prod
+$ now --prod (Vercel로 배포)
 $ git init
 $ git remote add origin https://github.com/Mincheol-Kang/facethesapper.git
 $ git push -u origin master
